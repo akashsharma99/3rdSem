@@ -1,0 +1,109 @@
+<html>
+<head><title>Register mail</title></head>
+<style>
+      th{
+            font-size:30;
+            color:green;
+      }
+</style>
+<body bgcolor=yellow>
+      <form action=welcome.html>
+            <table align=center>
+                  <tr>
+                        <th colspan=2>Create a new account</th>
+                  </tr>
+                  <tr>
+                        <td>Name</td>
+                        <td><input type=text name=user></td>
+                  </tr>
+                  <tr>
+                        <td>Date of Birth</td>
+                        <td>dd<select>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                              <option>6</option>
+                              <option>7</option>
+                              <option>8</option>
+                              <option>9</option>
+                              <option>10</option>
+                              </select>
+                            mm<select>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                  <option>7</option>
+                                  <option>8</option>
+                                  <option>9</option>
+                                  <option>10</option>
+                                  <option>11</option>
+                                  <option>12</option>
+                                  </select>
+                            yyyy<select>
+                                  <option>1999</option>
+                                  <option>1998</option>
+                                  <option>1997</option>
+                                  <option>1996</option>
+                                  <option>1995</option>
+                                  <option>1994</option>
+                                  <option>1993</option>
+                                  </select>
+                        </td>
+                  </tr>
+                  <tr>
+                        <td>User ID</td>
+                        <td><input type=text name=uid></td>
+                  </tr>
+                  <tr>
+                        <td>Password</td>
+                        <td><input type=password name=passA size=16></td>
+                  </tr>
+                  <tr>
+                        <td>Confirm Password</td>
+                        <td><input type=password name=passB size=16></td>
+                  </tr>
+                  <tr>
+                        <td>Security Question</td>
+                        <td><select>
+                              <option>What is your cat's name?</option>
+                              <option>What is the color of your first car?</option>
+                              <option>Who is your favourite singer?</option>
+                              <select>
+                        </td>
+                  </tr>
+                  <tr>
+                        <td></td>
+                        <td>Answer:<br>
+                            <input type=text name=secans>
+                        </td>
+                  </tr>
+                  <tr>
+                        <td>Gender</td>
+                        <td><input type=radio name=gend value=m>Male
+                              <input type=radio name=gend value=f>Female
+                              <input type=radio name=gend value=o>Others
+                        </td>
+                  </tr>
+                  <tr>
+                        <td>Colors</td>
+                        <td>
+                              <input type=checkbox name=c1 value=green>Green
+                              <input type=checkbox name=c2 value=yellow>Yellow
+                              <input type=checkbox name=c3 value=blue>Blue
+                        </td>
+                  </tr>
+                  <tr>
+                        <td><input type=submit name=sub value=Submit>
+                              <input type=reset name=rest>
+                              <button name=cancel value=-1>Cancel</button>
+                        </td>
+                  </tr>
+            </table>
+      </form>
+</body>
+</html>
