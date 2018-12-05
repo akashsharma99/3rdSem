@@ -1,0 +1,13 @@
+Hello		:	2
+my		:	7
+name		:	1
+minions		:	3
+I		:	4
+am		:	1
+19		:	1
+years		:	1
+old.		:	1
+love		:	1
+coding		:	1
+and		:	1
+sleeping.		:	1
