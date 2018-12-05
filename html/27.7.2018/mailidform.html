@@ -7,7 +7,7 @@
       }
 </style>
 <body bgcolor=yellow>
-      <form action=welcome.html>
+      <form action=welcome.html method=get>
             <table align=center>
                   <tr>
                         <th colspan=2>Create a new account</th>
@@ -57,7 +57,7 @@
                   </tr>
                   <tr>
                         <td>User ID</td>
-                        <td><input type=text name=uid></td>
+                        <td><input type=number name=uid></td>
                   </tr>
                   <tr>
                         <td>Password</td>
@@ -93,14 +93,14 @@
                         <td>Colors</td>
                         <td>
                               <input type=checkbox name=c1 value=green>Green
-                              <input type=checkbox name=c2 value=yellow>Yellow
-                              <input type=checkbox name=c3 value=blue>Blue
+                              <input type=checkbox name=c1 value=yellow>Yellow
+                              <input type=checkbox name=c1 value=blue>Blue
                         </td>
                   </tr>
                   <tr>
                         <td><input type=submit name=sub value=Submit>
                               <input type=reset name=rest>
-                              <button name=cancel value=-1>Cancel</button>
+                              <button name=cancel action="welcome.html" value=-1>dfgdsg</button>
                         </td>
                   </tr>
             </table>
